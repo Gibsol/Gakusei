@@ -1,8 +1,8 @@
 # sMGR
-## Lightweight C++ library for student management.
+## A lightweight C++ library for student management.
 
 # Why?
-Actually, I made that thing in order to train my C++ skills, but, maybe, it would be helpful for someone.
+Actually, I made that thing in order for practicing my C++ skills, but, maybe, it would be helpful for someone.
 
 # Installation
 
