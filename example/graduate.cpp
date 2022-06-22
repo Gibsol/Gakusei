@@ -1,7 +1,7 @@
 // A brief example of working with this library
 
 #include <vector>
-#include "student_manager.cpp"
+#include "../src/student_manager.cpp"
 
 int main() {
     std::vector<StudentManager> grads;
