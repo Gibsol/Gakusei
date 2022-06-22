@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/gibusoruporu/Coding/C++/CLion/sMGR/src Select CMakeLists.txt
