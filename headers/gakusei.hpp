@@ -1,5 +1,6 @@
-#ifndef GAKUSEI_H 
-#define GAKUSEI_H 
+#ifndef GAKUSEI_HPP 
+#define GAKUSEI_HPP 
+
 
 #include <iostream>
 

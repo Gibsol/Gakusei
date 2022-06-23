@@ -1,5 +1,5 @@
 # Gakusei
-## Gakusei(学生) is a lightweight C++ library for student management.
+## Gakusei(学生) is a lightweight C++ library for school staff management.
 
 # Why?
 Actually, I made that thing in order to practice my C++ skills, but, maybe, it would be helpful for someone.
