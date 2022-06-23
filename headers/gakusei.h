@@ -11,8 +11,8 @@ private:
     int year; // The year of admission
     int age;
 public:
-    StudentManager();
-    StudentManager(std::string, double, int, int);
+    Gakusei();
+    Gakusei(std::string, double, int, int);
 
     std::string get_name();
     char get_grade();
