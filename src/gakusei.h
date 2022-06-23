@@ -1,9 +1,9 @@
-#ifndef STUDENT_MANAGER_H
-#define STUDENT_MANAGER_H
+#ifndef GAKUSEI_H 
+#define GAKUSEI_H 
 
 #include <iostream>
 
-class StudentManager {
+class Gakusei {
 private:
     std::string name;
     char grade;
