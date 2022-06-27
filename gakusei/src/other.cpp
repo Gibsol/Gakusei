@@ -13,7 +13,6 @@ std::string Other::get_name() { return name; }
 int Other::get_age() { return age; }
 double Other::get_salary() { return salary; }
 
-
 // 's' stands for "set"
 void Other::set_name(std::string sname) { name = sname; } 
 void Other::set_experience(int sexperience) { experience = sexperience; }
