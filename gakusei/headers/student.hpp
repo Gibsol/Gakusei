@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-class Gakusei {
+class Student {
 private:
     std::string name;
     char grade;
@@ -12,8 +12,8 @@ private:
     int year; // The year of admission
     int age;
 public:
-    Gakusei();
-    Gakusei(std::string, double, int, int);
+    Student();
+    Student(std::string, double, int, int);
 
     std::string get_name();
     char get_grade();

@@ -1,11 +1,11 @@
 // A brief example of working with this library
 
 #include <vector>
-#include "../src/gakusei.cpp"
+#include "../src/student.cpp"
 
 int main() {
-    std::vector<Gakusei> grads;
-    auto* st1 = new Gakusei("john", 2.0, 2020, 45);
+    std::vector<Student> grads;
+    auto* st1 = new Student("john", 2.0, 2020, 45);
 
     if(st1->get_gpa() >=3.0) { grads.push_back(*st1); }
     st1->calc_grade(st1->get_gpa());
