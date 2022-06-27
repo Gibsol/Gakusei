@@ -3,6 +3,8 @@
 #include <vector>
 #include "../src/student.cpp"
 
+using namespace Gakusei;
+
 int main() {
     std::vector<Student> grads;
     auto* st1 = new Student("john", 2.0, 2020, 45);

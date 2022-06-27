@@ -4,6 +4,8 @@
 
 #include <iostream>
 
+namespace Gakusei {
+
 class Other {
 private:
     std::string name;
@@ -25,6 +27,7 @@ public:
     void set_salary(double);
 };
 
+}
 
 
 #endif

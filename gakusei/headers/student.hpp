@@ -4,6 +4,8 @@
 
 #include <iostream>
 
+namespace Gakusei {
+
 class Student {
 private:
     std::string name;
@@ -30,6 +32,8 @@ public:
     char calc_grade(double);
     void show_info();
 };
+
+}
 
 
 #endif

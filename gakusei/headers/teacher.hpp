@@ -4,6 +4,8 @@
 
 #include <iostream>
 
+namespace Gakusei {
+
 class Teacher { 
 private:
     std::string name;
@@ -27,6 +29,8 @@ public:
     void get_experience(int);
     void get_salary(double);
 };
+
+}
 
 
 
