@@ -5,7 +5,6 @@
 #include "../gakusei/shared/library/gakusei/"
 
 int main() {
-
     std::vector<gakusei::Student> grads;
     auto* st1 = new gakusei::Student("john", 2.0, 2020, 45);
 
