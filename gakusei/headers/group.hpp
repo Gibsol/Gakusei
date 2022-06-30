@@ -5,7 +5,7 @@
 namespace gakusei {
 
 class Group{
-
+  //TODO
 };
 
 }
