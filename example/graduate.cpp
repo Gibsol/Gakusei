@@ -2,7 +2,7 @@
 
 #include <vector>
 
-#include "../gakusei/shared/library/gakusei/gakusei.cpp"
+#include "../gakusei/shared/library/gakusei/"
 
 int main() {
 
