@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-namespace Gakusei {
+namespace gakusei {
 
 class Other {
 private:

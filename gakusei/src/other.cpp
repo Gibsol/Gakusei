@@ -1,6 +1,6 @@
 #include "../headers/other.hpp"
 
-namespace Gakusei {
+namespace gakusei {
 
 // 'c' stands for "constructor"
 Other::Other() : name("none"), experience(0), age(0), salary(0.0) {}

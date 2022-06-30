@@ -4,34 +4,31 @@
 
 #include <iostream>
 
-namespace Gakusei {
+namespace gakusei {
 
 class Teacher { 
 private:
     std::string name;
-    std::string subject;
+    std::string education;
     int age;
-    int experience;
     double salary;
 public:
     Teacher();
-    Teacher(std::string, std::string, int, int, double);
+    Teacher(std::string, std::string, int, double);
+    ~Teacher();
     
     std::string get_name();
-    std::string get_subject();
+    std::string get_education();
     int get_age();
-    int get_experience();
     double get_salary();
 
-    void get_name(std::string);
-    void set_subject(std::string);
-    void get_age(int);
-    void get_experience(int);
-    void get_salary(double);
+    void set_name(std::string);
+    void set_education(std::string);
+    void set_age(int);
+    void set_salary(double);
 };
 
 }
-
 
 
 #endif

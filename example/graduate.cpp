@@ -6,8 +6,8 @@
 
 int main() {
 
-    std::vector<Gakusei::Student> grads;
-    auto* st1 = new Gakusei::Student("john", 2.0, 2020, 45);
+    std::vector<gakusei::Student> grads;
+    auto* st1 = new gakusei::Student("john", 2.0, 2020, 45);
 
     if(st1->get_gpa() >=3.0) { grads.push_back(*st1); }
     st1->calc_grade(st1->get_gpa());
