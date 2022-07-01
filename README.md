@@ -2,8 +2,8 @@
 
 Gakusei(学生) is a lightweight C++ library for school staff management. <br>
 
-[![Latest Release](https://img.shields.io/badge/release-1.0-ff69b4
-)](https://github.com/gibsol/Gakusei/releases/tag/1.0)<br>
+[![Latest Release](https://img.shields.io/badge/release-1.1-ff69b4
+)](https://github.com/Gibsol/gakusei/releases/tag/1.1)  
 
 ## Why?
 Actually, I made that thing in order to improve my C++ skills, but, maybe, it would be helpful for someone.
