@@ -1,7 +1,6 @@
 #include "../headers/student.hpp"
 
 namespace gakusei {
-
 Student::Student() : name("none"), grade('n'), gpa(0.0), year(0), age(0) {
     std::cerr << "Set the student's parameteres, please";
 }
@@ -44,5 +43,4 @@ char Student::calc_grade(double calgpa) { // 'cal' stands for "calculate"
 
     return grade;
 }
-    
 }

@@ -5,7 +5,6 @@
 #include <iostream>
 
 namespace gakusei {
-
 class Teacher { 
 private:
     std::string name;
@@ -27,7 +26,6 @@ public:
     void set_age(int);
     void set_salary(double);
 };
-
 }
 
 

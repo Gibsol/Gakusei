@@ -9,6 +9,7 @@ public:
 };
 
 Math_teacher::Math_teacher() {
+    
 }
 
 Math_teacher::~Math_teacher() {

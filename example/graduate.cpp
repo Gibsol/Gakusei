@@ -2,10 +2,10 @@
 
 #include <vector>
 
-#include "../gakusei/shared/library/gakusei/"
+#include "../gakusei/src/student.cpp" 
+#include "../gakusei/src/group.cpp" 
 
 int main() {
-
     std::vector<gakusei::Student> grads;
     auto* st1 = new gakusei::Student("john", 2.0, 2020, 45);
 
