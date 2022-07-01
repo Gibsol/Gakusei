@@ -22,8 +22,10 @@ public:
 
     void set_group_name(std::string);
     void add_people(std::string);
+  //TODO
 };
 }
+
 
 
 #endif
