@@ -12,7 +12,6 @@ Group::~Group()
 {}
 
 std::string Group::get_group_name() { return group_name; }
-
 int Group::get_n_people() { return n_people.size(); }
 
 void Group::set_group_name(std::string sgroup_name) { group_name = sgroup_name; }

@@ -9,7 +9,7 @@ Other::Other(std::string cname, int cexperience, int cage, double csalary) {
     salary = csalary;
 }
 
-std::string Other::get_name() { return name; }
+std::string Other::get_name() { return name;}
 int Other::get_age() { return age; }
 double Other::get_salary() { return salary; }
 

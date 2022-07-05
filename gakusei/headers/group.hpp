@@ -18,7 +18,6 @@ public:
 
     std::string get_group_name();
     int get_n_people(); 
-    std::vector<std::string> get_people();
 
     void set_group_name(std::string);
     void add_people(std::string);
