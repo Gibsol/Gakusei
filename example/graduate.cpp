@@ -2,14 +2,18 @@
 
 #include <vector>
 
-#include "../gakusei/src/student.cpp" 
-#include "../gakusei/src/group.cpp" 
+#include "../gakusei/src/student.cpp"
+#include "../gakusei/src/group.cpp"
 
-int main() {
+int main()
+{
     std::vector<gakusei::Student> grads;
-    auto* st1 = new gakusei::Student("john", 2.0, 2020, 45);
+    auto *st1 = new gakusei::Student("john", 2.0, 2020, 45);
 
-    if(st1->get_gpa() >=3.0) { grads.push_back(*st1); }
+    if (st1->get_gpa() >= 3.0)
+    {
+        grads.push_back(*st1);
+    }
     st1->calc_grade(st1->get_gpa());
 
     std::cout << st1->get_grade() << std::endl;
