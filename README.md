@@ -14,4 +14,4 @@ Actually, I made that thing in order to improve my C++ skills, but, maybe, it wo
 One of the ways of using it is just copying the /src files to your program and compile them as the other files in your project. You can check the example of usage in ../example/graduate.cpp
 
 ## License
-GNU General Public License v3.0.
+<a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0.</a>
